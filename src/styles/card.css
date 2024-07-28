@@ -1,0 +1,123 @@
+.card {
+    width: 49%;
+    height: fit-content;
+    background: linear-gradient(to bottom, #2B57AA, #000);
+    padding: 30px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.cardImg {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+}
+
+.cardImg img {
+    width: 100%;
+}
+
+.cardContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardTech {
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+.cardTech span {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-right: 20px;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+
+.cardTitle p {
+    margin: 20px 0;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.cardDesc ul {
+    padding: 10px 30px;
+}
+
+.cardDesc li {
+    color: white;
+    font-size: 16px;
+    margin: 0 0 10px 0;
+    font-weight: 400;
+}
+
+.cardLinks {
+    display: flex;
+}
+
+.cardLinks p {
+    font-size: 16px;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+@media (max-width:1192px) {
+    .cardImg {
+        height: 230px;
+        
+    
+    }   
+    .card{
+        padding: 20px;
+    }
+}
+
+@media (max-width:992px) {
+    .cardImg{
+        height: 200px;
+    }
+}
+@media (max-width:768px) {
+    .card{
+        width: 100%;
+    }
+    .cardImg {
+        width: 100%;
+        height: 45vw;
+        overflow: hidden;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    
+    }
+    .cardDesc ul {
+        padding: 10px 20px;
+    }
+}
+@media (max-width:480px) {
+    .card{
+        padding: 10px;
+    }
+    .cardImg {
+        width: 100%;
+        height: 45vw;
+        overflow: hidden;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    
+    }
+    .cardDesc ul {
+        padding: 10px 10px 10px 20px;
+    }
+}

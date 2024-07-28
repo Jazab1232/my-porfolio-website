@@ -1,0 +1,55 @@
+.servicesCard2 {
+    width: 45%;
+    min-height: 250px;
+    max-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 30px;
+    background-color: #191919;
+    border-radius: 10px;
+}
+
+.servicesCard2 i {
+    font-size: 30px;
+    color: white;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: #ffffff0c;
+    text-align: center;
+    align-content: center;
+    border-radius: 10px;
+}
+
+.servicesCard2 h2 {
+    font-size: 35px;
+    color: white;
+    font-weight: 400;
+}
+
+.servicesCard2 p {
+    font-size: 18px;
+    font-weight: 300;
+    opacity: .8;
+    color: white;
+    margin-top: 5px;
+    line-height: 30px;
+}
+
+@media (max-width:992px) {
+    .servicesCard2 i {
+        font-size: 24px;
+        width: 50px;
+        height: 50px;
+
+    }
+}
+
+@media (max-width:768px) {
+    .servicesCard2 {
+        width: 100%;
+        height: fit-content;
+    }
+}

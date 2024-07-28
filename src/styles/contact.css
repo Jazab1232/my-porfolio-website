@@ -1,0 +1,132 @@
+.contact {
+    width: 100%;
+    padding: 140px 80px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #111111;
+}
+
+.contact h2 {
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+}
+
+.contact p {
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.contactMain {
+    width: 100%;
+    display: flex;
+    gap: 25px;
+}
+
+.contactImg {
+    padding: 20px 0 0 0;
+    width: 50%;
+}
+
+.contactImg img {
+    width: 90%;
+}
+
+.contactForm {
+    width: 50%;
+
+}
+
+.contactForm form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactForm h5 {
+    color: white;
+}
+
+.contactForm input {
+    width: 100%;
+    outline: none;
+    border: 2px solid #54ADA3;
+    background-color: #E0E0E0;
+    border-radius: 5px;
+    height: 48px;
+    margin: 5px 0 15px 0;
+    padding-inline: 10px;
+}
+
+.contactForm textarea {
+    width: 100%;
+    outline: none;
+    border: 2px solid #54ADA3;
+    background-color: #E0E0E0;
+    border-radius: 5px;
+    height: 200px;
+    resize: none;
+    margin: 5px 0 15px 0;
+    padding: 10px;
+}
+
+.contactForm {
+    padding: 40px 10px;
+}
+
+.contactForm button {
+    height: 48px;
+    padding: 0 20px;
+    color: white;
+    background-color: #007BFF;
+    /* border: 1px solid #54ADA3; */
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 5px 0 15px 0;
+    border: none;
+}
+
+.contactForm button:hover {
+    background-color: #000;
+    border: 1px solid #54ADA3;
+}
+
+@media (max-width:768px) {
+    .contact h2{
+        font-size: 5vw;
+    }
+    .contact p{
+        font-size: 20px;
+    }
+    .contactMain {
+        flex-direction: column-reverse;
+    }
+
+    .contactForm {
+        width: 100%;
+    }
+
+    .contactImg {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact {
+        padding: 140px 40px 60px;
+    }
+}
+@media (max-width:480px) {
+    .contact h2{
+        font-size: 7vw;
+    }
+    .contact p{
+        font-size: 16px;
+    }
+    .contact{
+        padding: 140px 0px 60px;
+    }
+}
