@@ -44,8 +44,8 @@ export default function Home() {
     <div className='home'>
       <div className="main">
         <div className="heading">
-          <h1>What you can think<br />
-            we can develop it <br />
+          <h1>What You Can Think<br />
+            We Can Develop It <br />
             For You!</h1>
           <hr style={{ border: 'none', height: '1px', backgroundColor: '#54ADA3' }} />
           <p>We create future-ready websites & web apps via innovative digital solutions so that
