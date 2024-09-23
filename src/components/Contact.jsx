@@ -1,7 +1,9 @@
-import React, { useRef } from 'react'
+import React, { useEffect, useRef } from 'react'
 import '../styles/contact.css'
 import mailPng from '../assets/mail.png'
 import emailjs from '@emailjs/browser';
+import MenuBar from './MenuBar';
+import { useLocation } from 'react-router-dom';
 export default function Contact() {
     const form = useRef();
     const sendEmail = (e) => {
@@ -20,6 +22,11 @@ export default function Contact() {
                     console.log('FAILED...', error.text);
                 },
             );
+            const { pathname } = useLocation();
+
+            useEffect(() => {
+              window.scrollTo(0, 0);
+            }, [pathname]);
     };
     return (
         <div className='contact'>
@@ -41,6 +48,8 @@ export default function Contact() {
                     </form>
                 </div>
             </div>
+            
+      <MenuBar />
         </div>
     )
 }

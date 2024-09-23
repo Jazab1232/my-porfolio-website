@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #111111;
+    background-color: #1F1F1F;
 }
 
 .contact h2 {
@@ -51,7 +51,7 @@
 .contactForm input {
     width: 100%;
     outline: none;
-    border: 2px solid #54ADA3;
+    border: 2px solid #6AD6CC;
     background-color: #E0E0E0;
     border-radius: 5px;
     height: 48px;
@@ -62,7 +62,7 @@
 .contactForm textarea {
     width: 100%;
     outline: none;
-    border: 2px solid #54ADA3;
+    border: 2px solid #6AD6CC;
     background-color: #E0E0E0;
     border-radius: 5px;
     height: 200px;
@@ -79,7 +79,7 @@
     height: 48px;
     padding: 0 20px;
     color: white;
-    background-color: #007BFF;
+    background-color: #6AD6CC;
     /* border: 1px solid #54ADA3; */
     border-radius: 30px;
     cursor: pointer;
@@ -91,7 +91,7 @@
 
 .contactForm button:hover {
     background-color: #000;
-    border: 1px solid #54ADA3;
+    border: 1px solid #3D817B;
 }
 
 @media (max-width:768px) {

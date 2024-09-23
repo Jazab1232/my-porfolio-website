@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     padding: 140px 80px 60px;
-    background-color: #111111;
+    background-color: #1F1F1F;
 }
 
 .about h2 {
@@ -98,6 +98,10 @@
         color: white;
         font-size: 10vw;
         font-weight: 400;
+    }
+
+    .about {
+        padding: 140px 20px 60px;
     }
 
     .aboutContent p {

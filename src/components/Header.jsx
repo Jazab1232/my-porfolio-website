@@ -16,15 +16,15 @@ export default function Header({ menu, setMenu }) {
         </Link>
         <div className="navLinks">
           <Link to='/' className='link'>HOME</Link>
-          <Link to='project' className='link'>ROJECTS</Link>
-          <Link to='services' className='link'>SERVICES</Link>
-          <Link to='contact' className='link'>CONTACT</Link>
-          <Link to='about' className='link'>ABOUT</Link>
+          <Link to='/project' className='link'>ROJECTS</Link>
+          <Link to='/services' className='link'>SERVICES</Link>
+          <Link to='/contact' className='link'>CONTACT</Link>
+          <Link to='/about' className='link'>ABOUT</Link>
         </div>
         <div className="quote">
           <Link to='contact' className='quoteBtn'>Get quote</Link>
         </div>
-        <i class="fa-solid fa-bars menuBar" onClick={showMenu}></i>
+        <i className="fa-solid fa-bars menuBar" onClick={showMenu}></i>
       </div>
     </div>
   )

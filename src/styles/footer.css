@@ -36,6 +36,9 @@
     color: white;
     border-bottom: 1px solid #54ADA3;
 }
+.footerIcon a{
+    text-decoration: none;
+}
 
 .footerIcon i {
     border: 1px solid white;

@@ -1,12 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../styles/about.css'
 import aboutImg from '../assets/about.png'
 import ServicesCard2 from './ServicesCard2'
+import MenuBar from './MenuBar'
+import { useLocation } from 'react-router-dom'
 
 export default function About() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
   return (
     <div className='about'>
-      <h2>ABOUT ME</h2>
+      <h2>About Me</h2>
       <div style={{ display: 'flex', gap: '25px' }} className='aboutMain'>
         <div className="aboutContent">
           <p>
@@ -28,6 +35,8 @@ export default function About() {
           <img src={aboutImg} alt="" />
         </div>
       </div>
+      
+      <MenuBar />
     </div>
   )
 }

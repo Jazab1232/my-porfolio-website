@@ -5,16 +5,19 @@ import logo from '../assets/logo.png'
 
 function MenuBar() {
     const [menu, setMenu] = useOutletContext()
+    function hideMenu() {
+        setMenu(!menu)
+    }
     return (
         <div className='menu' style={{ left: menu ? '0px' : '-200px' }}>
             <div className="menuLogo">
                 <img src={logo} alt="" />
             </div>
-            <Link className='menuLink'>HOME</Link>
-            <Link className='menuLink'>PROJECTS</Link>
-            <Link className='menuLink'>SERVICES</Link>
-            <Link className='menuLink'>ABOUT</Link>
-            <Link className='menuLink'>CONTACT</Link>
+            <Link to='/' onClick={hideMenu} className='link'>HOME</Link>
+            <Link to='/project' onClick={hideMenu} className='link'>ROJECTS</Link>
+            <Link to='/services' onClick={hideMenu} className='link'>SERVICES</Link>
+            <Link to='/contact' onClick={hideMenu} className='link'>CONTACT</Link>
+            <Link to='/about' onClick={hideMenu} className='link'>ABOUT</Link>
         </div>
     )
 }

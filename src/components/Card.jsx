@@ -1,34 +1,28 @@
 import React from 'react'
-import countriesApi from '../assets/countriesApi.png'
 import '../styles/card.css'
-import { Link } from 'react-router-dom'
 
-export default function Card() {
+export default function Card({ img, title, desc, link, color }) {
+  
+  const cardStyle = {
+    background: `linear-gradient(to top, #131213, ${color})`,
+    color: '#fff',
+  };
   return (
-    <div className="card">
-      <div className="cardImg">
-        <img src={countriesApi} alt="" />
-      </div>
+    <div className="card" style={cardStyle} >
+
       <div className="cardContent">
-        {/* <div className="cardTech">
-          <span>#React</span>
-          <span>#Html</span>
-          <span>#Css</span>
-        </div> */}
         <div className="cardTitle">
-          <p>Countries Api</p>
+          <p>{title}</p>
         </div>
         <div className="cardDesc">
-          <ul>
-            <li>Streamline your daily workflow and keep your thoughts organized.</li>
-            <li>Create, edit, and manage notes effortlessly in a clean interface.</li>
-            <li>Perfect for jotting down quick reminders, detailed meeting minutes, or creative ideas.</li>
-          </ul>
+          <p>{desc}</p>
         </div>
-        <div className="cardLinks">
-          <p>GitHub</p>
-          <p>Live</p>
-        </div>
+      </div>
+      <div className="cardImg">
+        <img src={img} alt="" />
+      </div>
+      <div className="cardLinks">
+        <a href={link} target="_blank" className='cardLink'>View more</a>
       </div>
     </div>
   )

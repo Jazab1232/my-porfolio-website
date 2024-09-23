@@ -1,11 +1,12 @@
 .servicesCard {
-    width: 45%;
-    height: fit-content;
+    width: 48%;
+    height: 300px;
     border-radius: 20px;
     background-color: #282828;
-    margin-top: 80px;
+    margin-top: 40px;
     margin-bottom: 30px;
-    padding: 80px 20px 20px 30px; /* Adjusted padding */
+    padding: 80px 20px 20px 30px;
+    /* Adjusted padding */
     position: relative;
 }
 
@@ -27,6 +28,7 @@
 .serviceIcon i {
     color: white;
     font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.5);
     box-shadow: 0px 0px 50px 15px black;
 }
 
@@ -43,4 +45,25 @@
     color: white;
     margin-top: 5px;
     line-height: 30px;
+}
+
+
+
+@media (max-width:768px) {
+    .servicesCard{
+        width: 100%;
+        height: 260px;
+    }
+}
+@media (max-width:600px) {
+    .servicesCard{
+        width: 100%;
+        height: 310px;
+    }
+}
+@media (max-width:448px) {
+    .servicesCard{
+        width: 100%;
+        height: 340px;
+    }
 }

@@ -1,9 +1,9 @@
 .home {
     width: 100%;
     height: 100%;
-    background-color: #111111;
+    background-color: #1F1F1F;
     min-height: 100vh;
-    padding-top: 120px;
+    padding-top: 100px;
 }
 
 .main {
@@ -38,7 +38,7 @@
 }
 
 .mainImg img {
-    
+
     width: 60%;
     position: absolute;
     opacity: 0;
@@ -55,19 +55,19 @@
 }
 
 .heading p {
-    font-size: 22px;
+    font-size: 20px;
     color: white;
-    padding: 40px 80px 0 0;
+    padding: 20px 80px 0 0;
 }
 
 .talkBtn {
-    height: 48px;
-    font-size: 25px;
+    height: 50px;
+    font-size: 22px;
     border: 1px solid white;
     background-color: transparent;
     padding: 15px 25px;
     color: white;
-    font-weight: 500;
+    font-weight: 400;
     border-radius: 30px;
     margin-top: 30px;
     width: fit-content;
@@ -79,7 +79,9 @@
 }
 
 .talkBtn:hover {
-    background-color: black;
+    border: 2px solid #54ADA3;
+
+    color: #54ADA3;
 }
 
 .homeCard {
@@ -155,7 +157,7 @@ hr {
     justify-content: center;
     gap: 25px;
     margin-top: 80px;
-    height: 50vh;
+    height: fit-content;
 }
 
 @keyframes easeInAnimation {
@@ -215,6 +217,14 @@ hr {
 
     .serviceContainer {
         height: 60vh;
+    }
+
+    .projectSection h1 {
+        font-size: 8vw;
+    }
+
+    .ServiceSection h1 {
+        font-size: 8vw;
     }
 }
 

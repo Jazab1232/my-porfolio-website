@@ -8,7 +8,7 @@
     width: 200px;
     position: fixed;
     top: 0px;
-    left: -200px; 
+    left: -203px; 
     z-index: 1000;
     transition: left 0.3s ease;
 }

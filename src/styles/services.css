@@ -1,7 +1,7 @@
 .services {
     padding: 140px 80px 40px;
     box-sizing: border-box;
-    background-color: #111111;
+    background-color: #1F1F1F;
 }
 
 .servicesBox {
@@ -26,7 +26,6 @@ hr{
     font-size: 65px;
     color: white;
     font-weight: 400;
-    text-align: center;
 
 }
 
