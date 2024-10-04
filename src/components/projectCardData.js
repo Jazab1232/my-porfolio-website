@@ -14,13 +14,13 @@ export let cardData = [
         title: 'Digital Aura',
         desc: "Digital Aura is a sleek, modern blog platform featuring a powerful admin panel and Firebase integration for secure, real-time data management. It offers effortless content creation, customization, and a seamless user experience, perfect for sharing dynamic articles, tutorials, and creative insights.",
         img: digitalAura,
-        link: 'https://deft-panda-07ab66.netlify.app/'
+        link: 'https://digital-aura.netlify.app/'
     },
     {
         title: 'ZenCart',
         desc: 'ZenCart is a modern e-commerce platform where users can browse and purchase products effortlessly. With Firebase integration for secure, real-time data management, ZenCart ensures a seamless shopping experience from product discovery to checkout and a seamless user experience.',
         img: zenCart,
-        link: 'https://deft-panda-07ab66.netlify.app/'
+        link: 'https://zencart-portfolios.netlify.app/'
     },
     {
         title: 'OLX APP',
