@@ -7,9 +7,9 @@ import jsImg from '../assets/javaScript.png'
 import Card from './Card'
 import { Link, useLocation } from 'react-router-dom'
 import MenuBar from './MenuBar'
-import countriesApi from '../assets/countriesApi2.jpg'
-import olx from '../assets/olx2.jpg'
 import ServicesCard from './ServicesCard'
+import zenCart from '../assets/zenCart.png'
+import digitalAura from '../assets/digitalAura.png'
 
 export default function Home() {
   let images = [
@@ -64,25 +64,25 @@ export default function Home() {
         <h1>Projects</h1>
         <hr style={{ border: 'none', height: '1px', backgroundColor: '#54ADA3' }} />
         <div className="homeCard">
-          <Card img={olx}
-
-            title='OLX APP'
-            live={'https://deft-panda-07ab66.netlify.app/ '}
-            desc='I have created an OLX-like platform that allows users to register, list items
-             for sale with detailed descriptions and images, and efficiently search for products. 
-             Users can easily filter products based on various criteria, ensuring they find exactly 
-             what they need. The platform offers a seamless and user-friendly interface for all
-              buying and selling needs.'
+          <Card
+            img={digitalAura}
+            title='Digital Aura'
+            live={'https://digital-aura.netlify.app/ '}
+            desc='Digital Aura is a sleek, modern blog platform featuring a powerful admin
+             panel and Firebase integration for secure, real-time data management. It offers 
+             effortless content creation, customization, and a seamless user experience, perfect
+              for sharing dynamic articles, tutorials, and creative insights.'
             color={'#57B1BD'}
 
           />
-          <Card img={countriesApi}
-            title='Countries API'
-            live={'https://countries-api-portfolio.netlify.app/'}
-            desc='I have created a countries API project that fetches data from an API and 
-            displays it in interactive cards. Users can search for specific countries and click 
-            on any card to view detailed information about that country. This project provides an
-            F intuitive and informative way to explore and learn about various countries.'
+          <Card
+            img={zenCart}
+            title='ZenCart'
+            live={'https://zencart-portfolios.netlify.app/'}
+            desc='ZenCart is a modern e-commerce platform where users can browse and purchase 
+            products effortlessly. With Firebase integration for secure, real-time data
+             management, ZenCart ensures a seamless shopping experience from product discovery
+              to checkout and a seamless user experience.'
             color={'#F4C925'}
           />
 
