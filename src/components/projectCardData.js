@@ -7,9 +7,16 @@ import WeatherApp from '../assets/WeatherApp2.jpg'
 import olx from '../assets/olx2.jpg'
 import zenCart from '../assets/zenCart.png'
 import digitalAura from '../assets/digitalAura.png'
+import orderly from '../assets/orderly.png'
 
 
 export let cardData = [
+    {
+        title: 'Orderly',
+        desc: "Orderly is a dynamic, streamlined project management tool featuring an advanced admin dashboard and Firebase integration for secure, real-time collaboration. It enables admins to efficiently manage tasks, assign projects, and coordinate teams, ensuring smooth, organized workflows, tailored for productive project execution and seamless team communication.",
+        img: orderly,
+        link: 'https://orderly-app.netlify.app/'
+    },
     {
         title: 'Digital Aura',
         desc: "Digital Aura is a sleek, modern blog platform featuring a powerful admin panel and Firebase integration for secure, real-time data management. It offers effortless content creation, customization, and a seamless user experience, perfect for sharing dynamic articles, tutorials, and creative insights.",
